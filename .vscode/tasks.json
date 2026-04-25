@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Java",
+      "type": "shell",
+      "command": "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath\\javac.exe",
+      "args": [
+        "-d",
+        "bin",
+        "src/interfaces/*.java",
+        "src/modelos/*.java",
+        "src/implementaciones/*.java",
+        "src/main/EnsambladorCarros.java"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}

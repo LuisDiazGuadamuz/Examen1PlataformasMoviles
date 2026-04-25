@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch EnsambladorCarros",
+      "request": "launch",
+      "mainClass": "main.EnsambladorCarros",
+      "preLaunchTask": "Compilar Java",
+      "console": "integratedTerminal",
+      "classPaths": [
+        "${workspaceFolder}/bin"
+      ],
+      "javaExec": "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath\\java.exe"
+    }
+  ]
+}
